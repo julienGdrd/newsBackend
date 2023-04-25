@@ -22,6 +22,7 @@ const Article = require("../models/articles");
 //     });
 // });
 
+
 //***************SAVED A FEW ARTICLES IN MY DB TO DEPLOY ON VERCEL******* */
 router.get("/articles", (req, res) => {
   Article.find().then((data) => {
